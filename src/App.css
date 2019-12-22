@@ -1,0 +1,31 @@
+* {
+  font-family: "Oswald", sans-serif;
+}
+
+#container {
+  height: 2500px;
+  border: 1px solid black;
+  background-image: url("/images/scaler_bg.png"),
+    linear-gradient(antiquewhite, orange);
+}
+
+.triggerShape {
+  display: inline-block;
+  background-color: aliceblue;
+  position: relative;
+  left: 45%;
+  border: 1px solid antiquewhite;
+  text-align: center;
+  border-radius: 8px;
+  min-width: 190px;
+  height: 50px;
+  margin: 0 auto 25px auto;
+}
+
+#triggerTwo {
+  top: 500px;
+}
+
+footer {
+  text-align: center;
+}
